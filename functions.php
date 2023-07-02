@@ -12,3 +12,10 @@ function myCALCULATOR($num01, $oper , $num02){
         break;    
     }
 }
+
+$num01 = $_GET["num01"];
+$oper = $_GET["oper"];
+$num02 = $_GET["num02"];
+
+
+echo "value: " .myCALCULATOR($num01, $oper , $num02);
